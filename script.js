@@ -7,7 +7,7 @@ document.querySelectorAll(".navbar a").forEach(anchor => {
     });
 })
 function viewResume(){
-    window.open("https://drive.google.com/file/d/1reVsoIRnn_kmno4O3K6gZhDgHTJmm8DT/view?usp=sharing/browser","_blank")
+    window.open("https://drive.google.com/file/d/1YwqNuG9tgkdbwBG96rBKLeJ9LMg6kl_8/view?usp=sharing","_blank")
 }
 function Aws(){
     window.open("https://drive.google.com/file/d/1drC-IM19zyir6IZtUp-qZdMn1GxQmk86/view?usp=sharing","_blank")
