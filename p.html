@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home"><button>Home</button></a>
+            <a href="#about"><button>About</button></a>
+            <a href="#skills"><button>Skills</button></a>
+            <a href="#certifications"><button>certifications</button></a>
+            <a href="#projects"><button>Projects</button></a>
+            <a href="#contact"><button>Contact</button></a>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>G.Thanush Teja Bhavani Shankar</h1>
+                <p>Crafting Tomorrow,s Possibilities:Exploring My Journey <br>Through Code and Creativity</p>
+                <a href="https://drive.google.com/file/d/1reVsoIRnn_kmno4O3K6gZhDgHTJmm8DT/view?usp=sharing"
+                    target="_blank">
+                    <button onclick="ViewResume">Resume</button>
+                </a>
+
+            </div>
+        </section>
+        <section id="about" class="About">
+            <h1>About Me</h1>
+            <div class="about-img">
+                <img src="a.png" alt="">
+                <span class="circle-spin"></span>
+            </div>
+            <div class="para">
+                <p>I am currently pursuing a Bachelor of Technology in Electronics and Communication Engineering at <i>
+                    Pragati Engineering College </i>surampalem with a CGPA of 7.87.<br>I am a Passionate <strong>Web
+                    Developer</strong> With a focus On <strong>Frontend</strong> Technologies.</p>
+            <p>I am an Global <strong>AWS Certified Cloud Practitioner</strong>, certified by Amazon Web Services in
+                August
+                2024. This certification validates my fundamental knowledge of cloud computing, AWS services, security,
+                pricing models, and cloud architecture best practices.<br>I am <strong>highly adaptable,
+                    self-motivated</strong> and driven by an insatiable curiosity to explore and master new
+                technologies. Beyond coding, I thrive in dynamic environments that challenge my <strong>creativity and
+                    teamwork abilities.</strong></p>
+            <p>My deep passion for Cricket and Traveling extends beyond hobbies—they shape my mindset and discipline.</p>
+            </div>
+
+        </section>
+        <section id="skills" class="skills">
+            <span>
+                <h1>skills</h1><img src="t.png" class="pic-m" alt="Pic I">
+                <div class="skill">
+                    <div class="skill-name">python </div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="75%" style="max-width:75%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">Cloud Technologies</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="80%" style="max-width:80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">html</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="90%" style="max-width:90%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">css</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="80%" style="max-width:80%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <div class="skill-name">js(basics)</div>
+                    <div class="skill-bar">
+                        <div class="skill-per" per="50%" style="max-width:50%"></div>
+                    </div>
+
+                </div>
+            </span>
+
+        </section>
+        <section id="certifications" class="certifications">
+            <h1>Certifications</h1>
+            <ol>
+                <li>AWS Certified Cloud Practitioner| AWS | August 2024
+                    <a href="https://drive.google.com/file/d/1drC-IM19zyir6IZtUp-qZdMn1GxQmk86/view?usp=sharing"
+                        target="_blank">
+                        <button onclick="Aws">view</button>
+                    </a>
+                </li>
+                <li>AI Associate|salesforce|October 2024
+                    <a href="https://drive.google.com/file/d/1oytTqmjXTZJ0TcDjVBoNU23Z9Tx3Cyq9/view?usp=sharing
+                    " target="_blank">
+                        <button onclick="Ai">view</button>
+                    </a>
+                </li>
+                <li>Python| HackerRank | July 2023
+                    <a href=https://drive.google.com/file/d/11_2nGsH1tF_4MKQZaQcDXSxLiOk0sa91/view?usp=sharing
+                        target="_blank">
+                        <button onclick="python">view</button>
+                    </a>
+                </li>
+            </ol>
+        </section>
+        <section id="projects" class="projects">
+            <h1>Projects</h1>
+            <table border="25">
+                <tr>
+                    <th>Projects</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Potfolio Website</td>
+                    <td>I have developed a frontend personal portfolio website using HTML, CSS, and JavaScript to
+                        professionally present my skills, projects, experience, and contact information. This website
+                        acts as a digital resume, allowing potential employers, clients, and collaborators to explore my
+                        work and easily connect with me.</td>
+                </tr>
+                <tr>
+                    <td>G-Pay Payment System</td>
+                    <td>
+                        Developed a CLI-based G-Pay simulation using Python.with user signup, login, and secure
+                        transactions.<br>
+                        Implemented bank account linking, balance checks, deposits, and money transfers.<br>
+                        Designed PIN-based authentication and transaction history tracking for security.
+                    </td>
+                </tr>
+            </table>
+            <section id="contact" class="contact">
+                <h1>Contact Me</h1>
+                <p>Feel free to get in touch with me using the form Below</p>
+                <form action="#">
+                    <div class="input-box">
+                        <div class="input-field">
+                            <input type="text" placeholder="Full Name" required>
+                            <span class="focus"></span>
+                        </div>
+                        <div class="input-field">
+                            <input type="email" placeholder="Email Address" required>
+                            <span class="focus"></span>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <div class="input-field">
+                            <input type="number" placeholder="Mobile Number" required>
+                            <span class="focus"></span>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" placeholder="Email Subject" required>
+                            <span class="focus"></span>
+                        </div>
+                    </div>
+                    <div class="textarea-field">
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                        <span class="focus"></span>
+                    </div>
+                    
+                    <div class="btn-box">
+                        <button type="submit" class="btn">Submit</button>
+                    </div>
+                </form>
+            </section>
+    </main>
+    <footer style="text-align: center; padding: 20px; background-color: #333; color: white;">
+        <a href="https://github.com/thanushg" target="_blank" style="color: white; text-decoration: none;">
+            <i class="fa-brands fa-github" style="color: #c9d1d6;"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/gude-thanush-teja-bhavani-shankar-5868b0258/" target="_blank"
+            style="color: white; text-decoration: none;">
+            <i class="fa-brands fa-linkedin" style="color: #c9d1d6;"></i>
+        </a>
+        <p>© 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
